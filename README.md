@@ -1,2 +1,28 @@
-# Hybrid-Automation-Framework-Java
-Hybrid Automation Framework (Java) A professional SDET framework using Selenium &amp; Rest-Assured. Implements Page Object Model (POM) for UI and robust API testing with dynamic data via Faker library. Integrated with GitHub Actions for CI/CD, managed by Maven, and designed for scalable end-to-end testing.
+# 🚀 Hybrid Automation Framework (Java)
+
+A professional-grade SDET framework built for automated API and UI testing. This project demonstrates a robust CI/CD integration using GitHub Actions, ensuring every code change is validated automatically.
+
+## 🌟 Key Features
+* **Hybrid Architecture:** Supports both UI (Selenium) and API (Rest-Assured) automation.
+* **CI/CD Integrated:** Fully configured with GitHub Actions to run tests on every push.
+* **Data Driven:** Integrated with libraries like Java Faker for dynamic test data generation.
+* **Clean Code:** Uses Project Lombok to reduce boilerplate code and improve readability.
+* **Maven Managed:** Easy dependency management and build execution.
+
+## 🛠 Tech Stack
+* **Language:** Java 17
+* **Testing Framework:** TestNG
+* **API Testing:** Rest-Assured
+* **UI Testing:** Selenium WebDriver
+* **Build Tool:** Maven
+* **Infrastructure:** GitHub Actions (Ubuntu Runner)
+
+## 📁 Project Structure
+```text
+src/test/java/
+└── api/
+    ├── base/    # Base setup for API tests
+    ├── tests/   # Actual Test Cases (e.g., LosApiTest.java)
+    └── utils/   # Reusable Utility classes (e.g., ApiUtils.java)
+.github/workflows/
+└── sdet-tests.yml # CI/CD Pipeline configuration
