@@ -1,5 +1,7 @@
 # 🚀 Hybrid Automation Framework (Java)
-![Build Status](https://github.com/nishantSDET-95/java-selenium-framework/actions/workflows/sdet-tests.yml/badge.svg)
+
+![Build Status](https://github.com/nishantSDET-95/Hybrid-Automation-Framework-Java/actions/workflows/sdet-tests.yml/badge.svg)
+
 
 
 
