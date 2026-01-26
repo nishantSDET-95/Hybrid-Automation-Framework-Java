@@ -1,5 +1,8 @@
 # 🚀 Hybrid Automation Framework (Java)
 
+![Build Status](https://github.com/nishantSDET-95/java-selenium-framework/actions/workflows/sdet-tests.yml/badge.svg)
+
+
 A professional-grade SDET framework built for automated API and UI testing. This project demonstrates a robust CI/CD integration using GitHub Actions, ensuring every code change is validated automatically.
 
 ## 🌟 Key Features
