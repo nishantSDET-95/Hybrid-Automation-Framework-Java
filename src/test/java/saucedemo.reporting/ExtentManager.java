@@ -1,4 +1,4 @@
-package com.saucedemo.reportings;
+package com.saucedemo.reportings; // Added 'com.' at the start
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -32,3 +32,4 @@ public class ExtentManager {
         return extent;
     }
 }
+
